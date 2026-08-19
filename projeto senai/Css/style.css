@@ -1,0 +1,77 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: rgb(238, 187, 58);
+
+    /* text-align centraliza a linha
+    font size tamanho da linha
+    margin bottom mexer no espaço de baixo
+    color cor */
+
+
+}
+
+
+hr{
+    height: 2px;
+
+    /* height altura */
+    
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+
+    /* text align alinhar a linha ou centralizar a linha
+        font family tipo da fonte
+        font size tamanho da fonte */
+    
+}
+
+img{
+    width: 490px;
+    height: 490px;
+
+    /* width largura de algo 
+        height altura das imagens */
+}
+
+.div_caixa{
+    width: fit-content;
+    margin: auto;
+
+    /* div é uma caixa , essa caixa guarda objetos como as tres imagens meio que manipular os objetos 
+        width fit content fala para o div (caixa) para ele meio que vai diminuir sua forma ou eliminar as bordas encaixando certinho no que esta dentro 
+        ex: uma bola dentro da caixa o div utiliza o width que é a largura fit content ele pega as bordas ou as sobras e reduz ou tira para encaixar certinho dentro na bola 
+        margin auto ele automaticamente centraliza objeto ou algo como texto. */
+}
+
+video{
+    display: block;
+    margin: auto;
+    width: 850px;
+
+    /* display block faz com que algo como video ele se comporte como objeto , e se comportando como objeto podemos manipular facil, assim conseguindo centralizar e etc 
+        margin auto centraliza algo 
+        width largura de algo e heigth altura de algo */
+}
+
+body{
+    background-image: url(/Image/background\ IA.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background position center: coloca a imagem de fundo no centro 
+        Size cover: faz com que a imagem de fundo preencha o fundo todo
+        repeat: no repeat a imagem  para de ficar repetindo ifinitamente
+        attchment: fixed deixa a imagem de fundo fixa ]
+        background image url: colocando a barr / fica mais facil para encontrar a imagem de fudndo */
+}
+
+
