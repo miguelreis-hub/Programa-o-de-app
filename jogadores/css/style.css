@@ -1,0 +1,30 @@
+img{
+    height: 600px;
+    border-radius: 20px;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(red , white ,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.central{
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+button{
+    font-size: 25px;
+    width: 148px;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
