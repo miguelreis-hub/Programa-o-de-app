@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(black,white,black);
+    height: 100vh;
+}
+
+
+.central{
+    width: fit-content;
+}
+
+
+button{
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
