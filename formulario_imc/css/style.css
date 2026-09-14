@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    background-image: url(/image/istockphoto-1213615970-612x612.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background: rgba(250, 250, 250, 0.13);
+    backdrop-filter: blur(6px); /*serve para desfoque*/
+    box-shadow: 1px 1px 5px black;  /*colocar sombra na direita esquerda emcima e embaixo*/
+    width: 40%;
+    display: flex;
+    flex-direction: column;     /* coloque os filhos ou objeto em forma de coluna*/
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  /*serve para espaçar os objetos filhos do outro*/
+    padding: 20px; /*serve para dar  espaçamento da margem*/
+    border-radius: 20px;
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    border: 2px solid brown;  /*colocar cor nas bordas no input*/
+}
+
+
+.central button{
+    font-size: 25px;
+    font-weight: bold; /*deixar a cor da fonte mais itensa mais destacada*/
+    background: brown;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    &:hover{ /*tudo que vai acontecer com o botao quando estiver com o mouse em cima, (ele vai passar por cima */
+        background: white;
+        color: brown;
+        transition: 1s; /*serve para quando o usuario colocar o mouse em cima do botoa vai mudar a cor so que de forma um pouco mais demorada 1 segundos*/
+        transform: scale(1.1); /*transforma escala */
+
+    }
+
+}
+
+.central span{
+    font-size: 20px;
+    color: brown;
+}
