@@ -1,0 +1,55 @@
+body {
+    background: url(/img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.central {
+
+    width: 30%;
+    background: rgba(233, 236, 240, 0.801);
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px black;
+    backdrop-filter: blur(6px);
+
+}
+
+.central input {
+    border: black;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.central button {
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(0, 0, 3);
+        color: white;
+        transition: 1s;
+        transform: scale(1.1);
+
+    }
+
+}
+
+.central span {
+    font-size: 25px;
+}
